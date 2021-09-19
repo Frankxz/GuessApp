@@ -11,6 +11,11 @@
 		C6A722D126F76C99008F3E68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A722D026F76C99008F3E68 /* ContentView.swift */; };
 		C6A722D326F76C9B008F3E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A722D226F76C9B008F3E68 /* Assets.xcassets */; };
 		C6A722D626F76C9B008F3E68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A722D526F76C9B008F3E68 /* Preview Assets.xcassets */; };
+		C6A722DE26F76E02008F3E68 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A722DD26F76E02008F3E68 /* ButtonView.swift */; };
+		C6A722E026F76FFE008F3E68 /* GameSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A722DF26F76FFE008F3E68 /* GameSlider.swift */; };
+		C6A722E226F791D3008F3E68 /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A722E126F791D3008F3E68 /* NumberView.swift */; };
+		C6A722E626F79830008F3E68 /* MainTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A722E526F79830008F3E68 /* MainTextView.swift */; };
+		C6A722E826F7A21D008F3E68 /* SliderStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A722E726F7A21D008F3E68 /* SliderStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		C6A722D226F76C9B008F3E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6A722D526F76C9B008F3E68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C6A722D726F76C9B008F3E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6A722DD26F76E02008F3E68 /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		C6A722DF26F76FFE008F3E68 /* GameSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSlider.swift; sourceTree = "<group>"; };
+		C6A722E126F791D3008F3E68 /* NumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberView.swift; sourceTree = "<group>"; };
+		C6A722E526F79830008F3E68 /* MainTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTextView.swift; sourceTree = "<group>"; };
+		C6A722E726F7A21D008F3E68 /* SliderStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,11 @@
 			children = (
 				C6A722CE26F76C99008F3E68 /* GuessAppApp.swift */,
 				C6A722D026F76C99008F3E68 /* ContentView.swift */,
+				C6A722E526F79830008F3E68 /* MainTextView.swift */,
+				C6A722E126F791D3008F3E68 /* NumberView.swift */,
+				C6A722E726F7A21D008F3E68 /* SliderStack.swift */,
+				C6A722DF26F76FFE008F3E68 /* GameSlider.swift */,
+				C6A722DD26F76E02008F3E68 /* ButtonView.swift */,
 				C6A722D226F76C9B008F3E68 /* Assets.xcassets */,
 				C6A722D726F76C9B008F3E68 /* Info.plist */,
 				C6A722D426F76C9B008F3E68 /* Preview Content */,
@@ -140,6 +155,11 @@
 			files = (
 				C6A722D126F76C99008F3E68 /* ContentView.swift in Sources */,
 				C6A722CF26F76C99008F3E68 /* GuessAppApp.swift in Sources */,
+				C6A722E026F76FFE008F3E68 /* GameSlider.swift in Sources */,
+				C6A722E226F791D3008F3E68 /* NumberView.swift in Sources */,
+				C6A722E626F79830008F3E68 /* MainTextView.swift in Sources */,
+				C6A722DE26F76E02008F3E68 /* ButtonView.swift in Sources */,
+				C6A722E826F7A21D008F3E68 /* SliderStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
