@@ -17,6 +17,7 @@ struct ContentView: View {
         ZStack {
             Rectangle().ignoresSafeArea()
             VStack {
+            
                 MainTextView()
                 NumberView(text: "\(rightValue)")
                 SliderStack(rightValue: $rightValue,
