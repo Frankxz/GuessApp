@@ -18,21 +18,17 @@ struct ContentView: View {
             Rectangle().ignoresSafeArea()
             VStack {
                 MainTextView()
-                
                 NumberView(text: "\(rightValue)")
-                
                 SliderStack(rightValue: $rightValue,
                             currentValue: $currentValue,
                             opacity: $opacity)
                 
-                ButtonView(title: "Check me!",
-                           color: .green) {
+                ButtonView(title: "Check me!",color: .green) {
                     showResult.toggle()
+                } .alert(isPresented: $showResult) {
+                    Alert(title: Text("You were close on \(computeScore())% !"),
+                          message: Text("Your current value is \(lround(currentValue))"))
                 }
-                    .alert(isPresented: $showResult) {
-                        Alert(title: Text("You were close on \(computeScore())% !"),
-                              message: Text("Your current value is \(lround(currentValue))"))
-                    }
                 
                 ButtonView(title: "Try again",
                            color: .orange,
